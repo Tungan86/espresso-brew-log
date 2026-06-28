@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bg-grad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#2a1f1b" />
+      <stop offset="100%" stop-color="#120f0d" />
+    </radialGradient>
+    
+    <!-- Crema/Gold Gradient -->
+    <linearGradient id="crema-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4a261" />
+      <stop offset="60%" stop-color="#d4a373" />
+      <stop offset="100%" stop-color="#e9c46a" />
+    </linearGradient>
+  </defs>
+
+  <!-- Circular background -->
+  <circle cx="256" cy="256" r="240" fill="url(#bg-grad)" stroke="#d4a373" stroke-width="8" />
+
+  <!-- Coffee Cup Graphics group -->
+  <g transform="translate(116, 120)">
+    <!-- Steam Lines -->
+    <path d="M 60,-30 C 50,-10 70,10 60,30" fill="none" stroke="#fefae0" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+    <path d="M 120,-40 C 105,-15 135,15 120,40" fill="none" stroke="#fefae0" stroke-width="8" stroke-linecap="round" opacity="0.8" />
+    <path d="M 180,-25 C 170,-5 190,15 180,35" fill="none" stroke="#fefae0" stroke-width="6" stroke-linecap="round" opacity="0.6" />
+
+    <!-- Cup Handle -->
+    <path d="M 220,110 C 275,110 275,180 220,180" fill="none" stroke="url(#crema-grad)" stroke-width="24" stroke-linecap="round" />
+
+    <!-- Cup Body shadow -->
+    <path d="M 20,110 L 220,110 C 220,185 185,220 120,220 C 55,220 20,185 20,110 Z" fill="#0c0a09" opacity="0.5" />
+
+    <!-- Cup Body -->
+    <path d="M 20,100 L 220,100 C 220,175 185,210 120,210 C 55,210 20,175 20,100 Z" fill="url(#crema-grad)" stroke="#120f0d" stroke-width="4" />
+
+    <!-- Cup Rim (Ellipse) -->
+    <ellipse cx="120" cy="100" rx="100" ry="24" fill="#58443e" stroke="url(#crema-grad)" stroke-width="6" />
+
+    <!-- Coffee Crema layer inside cup -->
+    <ellipse cx="120" cy="101" rx="90" ry="18" fill="#2d1c16" />
+    <ellipse cx="115" cy="101" rx="80" ry="14" fill="#a06030" opacity="0.7" />
+    
+    <!-- Crema Latte Art (Heart/Leaf shape) -->
+    <path d="M 120,95 C 100,85 85,100 120,112 C 155,100 140,85 120,95 Z" fill="#fefae0" opacity="0.9" />
+
+    <!-- Saucer Shadow -->
+    <ellipse cx="120" cy="245" rx="140" ry="15" fill="#000" opacity="0.4" />
+
+    <!-- Saucer -->
+    <ellipse cx="120" cy="240" rx="140" ry="15" fill="none" stroke="url(#crema-grad)" stroke-width="12" />
+    <ellipse cx="120" cy="240" rx="138" ry="13" fill="#1c1412" />
+  </g>
+</svg>
