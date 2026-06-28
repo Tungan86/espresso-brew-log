@@ -975,6 +975,7 @@ DOM.btnAddLog.addEventListener("click", () => {
   DOM.logTempInput.value = 93.0;
   DOM.logPressureInput.value = 9.0;
   DOM.logPreinfusionInput.value = 0;
+  DOM.logGrindInput.value = "J-Ultra ";
   DOM.logRatingInput.value = 4;
   updateStarUI(4);
 
