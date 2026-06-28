@@ -535,6 +535,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .badge-light { background: #b0c4de; color: #120f0d; }
+.badge-medium-light { background: #e6c2a4; color: #120f0d; }
 .badge-medium { background: #b58353; color: #120f0d; }
 .badge-medium-dark { background: #6c4e31; color: #fefae0; }
 .badge-dark { background: #3c2f2f; color: #fefae0; }

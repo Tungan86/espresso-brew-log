@@ -452,6 +452,7 @@ const BeansManager = {
       // Translate roast level
       const roastLabels = {
         light: "淺焙",
+        "medium-light": "中淺",
         medium: "中焙",
         "medium-dark": "中深",
         dark: "深焙"
